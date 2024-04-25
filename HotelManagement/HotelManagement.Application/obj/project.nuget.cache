@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "D1nmYGbwa3K756czjKb+/gkP3f2mVK42y5ffEg1EU0Ylj6WLB+BCtAKDgVkw+WfijtVRLRPK8mxQcUI/TRek9w==",
+  "success": true,
+  "projectFilePath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Application/HotelManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/alexandrecotier/.nuget/packages/ardalis.smartenum/8.0.0/ardalis.smartenum.8.0.0.nupkg.sha512",
+    "/Users/alexandrecotier/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
+    "/Users/alexandrecotier/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
+    "/Users/alexandrecotier/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/alexandrecotier/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "/Users/alexandrecotier/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/alexandrecotier/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/alexandrecotier/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "/Users/alexandrecotier/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
