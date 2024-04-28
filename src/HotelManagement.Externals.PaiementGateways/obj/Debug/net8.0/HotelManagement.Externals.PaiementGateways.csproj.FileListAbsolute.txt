@@ -1,0 +1,12 @@
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/bin/Debug/net8.0/HotelManagement.Externals.PaiementGateways.deps.json
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/bin/Debug/net8.0/HotelManagement.Externals.PaiementGateways.dll
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/bin/Debug/net8.0/HotelManagement.Externals.PaiementGateways.pdb
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/obj/Debug/net8.0/HotelManagement.Externals.PaiementGateways.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/obj/Debug/net8.0/HotelManagement.Externals.PaiementGateways.AssemblyInfoInputs.cache
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/obj/Debug/net8.0/HotelManagement.Externals.PaiementGateways.AssemblyInfo.cs
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/obj/Debug/net8.0/HotelManagement.Externals.PaiementGateways.csproj.CoreCompileInputs.cache
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/obj/Debug/net8.0/HotelManagement.Externals.PaiementGateways.sourcelink.json
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/obj/Debug/net8.0/HotelManagement.Externals.PaiementGateways.dll
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/obj/Debug/net8.0/refint/HotelManagement.Externals.PaiementGateways.dll
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/obj/Debug/net8.0/HotelManagement.Externals.PaiementGateways.pdb
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/obj/Debug/net8.0/ref/HotelManagement.Externals.PaiementGateways.dll
