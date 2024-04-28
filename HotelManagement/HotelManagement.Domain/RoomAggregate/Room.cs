@@ -58,6 +58,10 @@ namespace HotelManagement.Domain.RoomAggregate
                 );
         }
 
+        public void AddReservationId(ReservationId reservationId){
+            _reservations.Add(reservationId);
+        }
+
 #pragma warning disable CS8618
     private Room()
     {

@@ -5,6 +5,7 @@ using HotelManagement.Application.Common.Interfaces.Persistence;
 using HotelManagement.Application.Common.Interfaces.Services;
 using HotelManagement.Infrastructure.Authentication;
 using HotelManagement.Infrastructure.Persistence;
+using HotelManagement.Infrastructure.Persistence.Interceptors;
 using HotelManagement.Infrastructure.Persistence.Repositories;
 using HotelManagement.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -37,6 +38,7 @@ public static class DependencyInjection
         services.AddDbContext<HotelManagementDbContext>(options =>
             options.UseSqlServer("Server=163.172.221.134;Initial Catalog=HotelManagement;User Id=sa;Password=MyPassword123!!;TrustServerCertificate=True;"));
 
+        services.AddScoped<PublishDomainEventsInterceptor>();
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IRoomRepository, RoomRepository>();
         services.AddScoped<IReservationRepository, ReservationRepository>();
