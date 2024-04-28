@@ -1002,9 +1002,15 @@
           "HotelManagement.Domain.dll": {}
         }
       },
+      "HotelManagement.Externals.PaiementGateways/1.0.0": {
+        "runtime": {
+          "HotelManagement.Externals.PaiementGateways.dll": {}
+        }
+      },
       "HotelManagement.Infrastructure/1.0.0": {
         "dependencies": {
           "HotelManagement.Application": "1.0.0",
+          "HotelManagement.Externals.PaiementGateways": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
@@ -1630,6 +1636,11 @@
       "sha512": ""
     },
     "HotelManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotelManagement.Externals.PaiementGateways/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
