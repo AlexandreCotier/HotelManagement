@@ -1,13 +1,14 @@
 using ErrorOr;
 
-namespace HotelManagement.Domain.Common.DomainErrors;
-
-public static partial class Errors
+namespace HotelManagement.Domain.Common.DomainErrors
 {
-    public static class User
+    public static partial class Errors
     {
-        public static Error DuplicateEmail => Error.Conflict(
-            code: "User.DuplicateEmail",
-            description: "Email is already in use.");
+        public static class User
+        {
+            public static Error DuplicateEmail => Error.Conflict(
+                code: "User.DuplicateEmail",
+                description: "Email is already in use.");
+        }
     }
 }

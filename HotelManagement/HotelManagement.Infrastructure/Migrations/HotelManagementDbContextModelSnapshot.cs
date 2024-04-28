@@ -22,6 +22,61 @@ namespace HotelManagement.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("HotelManagement.Domain.ReservationAggregate.Reservation", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CustomerId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("EndDateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("NumberOfGuests")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("RoomId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("StartDateTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Reservations", (string)null);
+                });
+
+            modelBuilder.Entity("HotelManagement.Domain.RoomAggregate.Room", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("BedroomType")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Capacity")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<float>("Price")
+                        .HasColumnType("real");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Rooms", (string)null);
+                });
+
             modelBuilder.Entity("HotelManagement.Domain.UserAggregate.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -55,6 +110,67 @@ namespace HotelManagement.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users", (string)null);
+                });
+
+            modelBuilder.Entity("HotelManagement.Domain.RoomAggregate.Room", b =>
+                {
+                    b.OwnsMany("HotelManagement.Domain.ReservationAggregate.ValueObjects.ReservationId", "ReservationIds", b1 =>
+                        {
+                            b1.Property<int>("Id")
+                                .ValueGeneratedOnAdd()
+                                .HasColumnType("int");
+
+                            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b1.Property<int>("Id"));
+
+                            b1.Property<Guid>("RoomId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<Guid>("Value")
+                                .HasColumnType("uniqueidentifier")
+                                .HasColumnName("ReservationId");
+
+                            b1.HasKey("Id");
+
+                            b1.HasIndex("RoomId");
+
+                            b1.ToTable("ReservationIds", (string)null);
+
+                            b1.WithOwner()
+                                .HasForeignKey("RoomId");
+                        });
+
+                    b.OwnsMany("HotelManagement.Domain.RoomAggregate.Entities.CleaningHistory", "CleaningHistories", b1 =>
+                        {
+                            b1.Property<Guid>("Id")
+                                .HasColumnType("uniqueidentifier")
+                                .HasColumnName("CleaningHistoryId");
+
+                            b1.Property<DateTime>("CleanDate")
+                                .HasColumnType("datetime2");
+
+                            b1.Property<Guid>("CleanerId")
+                                .HasColumnType("uniqueidentifier")
+                                .HasColumnName("CleanerId");
+
+                            b1.Property<int>("CleaningStatus")
+                                .HasColumnType("int");
+
+                            b1.Property<Guid>("RoomId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.HasKey("Id");
+
+                            b1.HasIndex("RoomId");
+
+                            b1.ToTable("CleaningHistories", (string)null);
+
+                            b1.WithOwner()
+                                .HasForeignKey("RoomId");
+                        });
+
+                    b.Navigation("CleaningHistories");
+
+                    b.Navigation("ReservationIds");
                 });
 #pragma warning restore 612, 618
         }

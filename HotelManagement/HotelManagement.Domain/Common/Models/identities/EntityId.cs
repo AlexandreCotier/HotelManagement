@@ -1,24 +1,25 @@
-namespace HotelManagement.Domain.Common.Models;
-
-public abstract class EntityId<TId> : ValueObject
+namespace HotelManagement.Domain.Common.Models
 {
-    public TId Value { get; }
-
-    protected EntityId(TId value)
+    public abstract class EntityId<TId> : ValueObject
     {
-        Value = value;
-    }
+        public TId Value { get; }
 
-    public override IEnumerable<object?> GetEqualityComponents()
-    {
-        yield return Value;
-    }
+        protected EntityId(TId value)
+        {
+            Value = value;
+        }
 
-    public override string? ToString() => Value?.ToString() ?? base.ToString();
+        public override IEnumerable<object?> GetEqualityComponents()
+        {
+            yield return Value;
+        }
+
+        public override string? ToString() => Value?.ToString() ?? base.ToString();
 
 #pragma warning disable CS8618
-    protected EntityId()
-    {
-    }
+        protected EntityId()
+        {
+        }
 #pragma warning restore CS8618
+    }
 }
