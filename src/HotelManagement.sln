@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement.Api", "Hote
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement.Infrastructure", "HotelManagement.Infrastructure\HotelManagement.Infrastructure.csproj", "{65DF5D19-CAB7-438A-8107-A03BEB1D94E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement.Externals.PaiementGateways", "HotelManagement.Externals.PaiementGateways\HotelManagement.Externals.PaiementGateways.csproj", "{91C81947-2E08-498C-A25E-E88798EB274D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{65DF5D19-CAB7-438A-8107-A03BEB1D94E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65DF5D19-CAB7-438A-8107-A03BEB1D94E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65DF5D19-CAB7-438A-8107-A03BEB1D94E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C81947-2E08-498C-A25E-E88798EB274D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C81947-2E08-498C-A25E-E88798EB274D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C81947-2E08-498C-A25E-E88798EB274D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C81947-2E08-498C-A25E-E88798EB274D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

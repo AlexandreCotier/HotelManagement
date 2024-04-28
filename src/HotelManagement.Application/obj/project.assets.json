@@ -430,11 +430,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Application/HotelManagement.Application.csproj",
+      "projectUniqueName": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Application/HotelManagement.Application.csproj",
       "projectName": "HotelManagement.Application",
-      "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Application/HotelManagement.Application.csproj",
+      "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Application/HotelManagement.Application.csproj",
       "packagesPath": "/Users/alexandrecotier/.nuget/packages/",
-      "outputPath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Application/obj/",
+      "outputPath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexandrecotier/.nuget/NuGet/NuGet.Config"
@@ -449,8 +449,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Domain/HotelManagement.Domain.csproj": {
-              "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Domain/HotelManagement.Domain.csproj"
+            "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Domain/HotelManagement.Domain.csproj": {
+              "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Domain/HotelManagement.Domain.csproj"
             }
           }
         }

@@ -28,6 +28,7 @@ public static class DependencyInjection
             .AddPersistance();
 
         services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
+        services.AddSingleton<IPaymentService, PaymentService>();
 
         return services;
     }

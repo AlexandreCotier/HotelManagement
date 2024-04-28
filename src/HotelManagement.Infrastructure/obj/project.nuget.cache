@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j6Waife/xegogd+PF2hAxPEv6KpkVcqXSzwznGQ8MP/VNKlfHIPWibWac5jbLKc/BJ8obcVHLSvq/GxPEnuqrw==",
+  "dgSpecHash": "nFB1Lb8JXISpGT3FwH/dnaenBdSrr/r0HSADGR5DhGLDS6kIlb8oyaYbl/q3G+q8B0Zk0J4h4KwZz+KvKuV+mg==",
   "success": true,
-  "projectFilePath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Infrastructure/HotelManagement.Infrastructure.csproj",
+  "projectFilePath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Infrastructure/HotelManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/alexandrecotier/.nuget/packages/ardalis.smartenum/8.0.0/ardalis.smartenum.8.0.0.nupkg.sha512",
     "/Users/alexandrecotier/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",

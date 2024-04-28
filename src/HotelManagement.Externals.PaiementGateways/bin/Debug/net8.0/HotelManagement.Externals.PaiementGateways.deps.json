@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HotelManagement.Externals.PaiementGateways/1.0.0": {
+        "runtime": {
+          "HotelManagement.Externals.PaiementGateways.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HotelManagement.Externals.PaiementGateways/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HotelManagement.Application\HotelManagement.Application.csproj" />
+    <ProjectReference Include="..\HotelManagement.Externals.PaiementGateways\HotelManagement.Externals.PaiementGateways.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

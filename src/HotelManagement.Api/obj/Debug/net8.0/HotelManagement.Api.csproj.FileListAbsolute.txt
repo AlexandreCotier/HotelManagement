@@ -151,3 +151,6 @@
 /Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Api/bin/Debug/net8.0/HotelManagement.Application.pdb
 /Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Api/bin/Debug/net8.0/HotelManagement.Infrastructure.pdb
 /Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Api/bin/Debug/net8.0/HotelManagement.Domain.pdb
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Api/obj/Debug/net8.0/HotelManagement.Api.dll
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Api/obj/Debug/net8.0/refint/HotelManagement.Api.dll
+/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Api/obj/Debug/net8.0/HotelManagement.Api.pdb

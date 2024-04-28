@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yI3QiqhwVY6ACU3HPC1BWd92RM6BfdQxDDhbPSimvvtGDfMXIHnkqkiM8R2mRYyuRvqvnVXbDwjP7Zg3cAwjiA==",
+  "dgSpecHash": "COvmnRhNcgcfsS+LmbtaIKHs1rxOXs/XjHb7P6yL+JVBpAoswaWHyCnOzmA3CbP1iVeyWv/Qcn875x8f0P0DOg==",
   "success": true,
-  "projectFilePath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Domain/HotelManagement.Domain.csproj",
+  "projectFilePath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Domain/HotelManagement.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/alexandrecotier/.nuget/packages/ardalis.smartenum/8.0.0/ardalis.smartenum.8.0.0.nupkg.sha512",
     "/Users/alexandrecotier/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",

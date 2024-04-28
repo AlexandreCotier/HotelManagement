@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Contracts/HotelManagement.Contracts.csproj",
+      "projectUniqueName": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Contracts/HotelManagement.Contracts.csproj",
       "projectName": "HotelManagement.Contracts",
-      "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Contracts/HotelManagement.Contracts.csproj",
+      "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Contracts/HotelManagement.Contracts.csproj",
       "packagesPath": "/Users/alexandrecotier/.nuget/packages/",
-      "outputPath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Contracts/obj/",
+      "outputPath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Contracts/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexandrecotier/.nuget/NuGet/NuGet.Config"

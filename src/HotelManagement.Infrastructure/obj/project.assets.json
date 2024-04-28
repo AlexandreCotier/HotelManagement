@@ -1164,6 +1164,16 @@
         "runtime": {
           "bin/placeholder/HotelManagement.Domain.dll": {}
         }
+      },
+      "HotelManagement.Externals.PaiementGateways/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/HotelManagement.Externals.PaiementGateways.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelManagement.Externals.PaiementGateways.dll": {}
+        }
       }
     }
   },
@@ -3005,11 +3015,17 @@
       "type": "project",
       "path": "../HotelManagement.Domain/HotelManagement.Domain.csproj",
       "msbuildProject": "../HotelManagement.Domain/HotelManagement.Domain.csproj"
+    },
+    "HotelManagement.Externals.PaiementGateways/1.0.0": {
+      "type": "project",
+      "path": "../HotelManagement.Externals.PaiementGateways/HotelManagement.Externals.PaiementGateways.csproj",
+      "msbuildProject": "../HotelManagement.Externals.PaiementGateways/HotelManagement.Externals.PaiementGateways.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "HotelManagement.Application >= 1.0.0",
+      "HotelManagement.Externals.PaiementGateways >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.4",
       "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
@@ -3024,11 +3040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Infrastructure/HotelManagement.Infrastructure.csproj",
+      "projectUniqueName": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Infrastructure/HotelManagement.Infrastructure.csproj",
       "projectName": "HotelManagement.Infrastructure",
-      "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Infrastructure/HotelManagement.Infrastructure.csproj",
+      "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Infrastructure/HotelManagement.Infrastructure.csproj",
       "packagesPath": "/Users/alexandrecotier/.nuget/packages/",
-      "outputPath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Infrastructure/obj/",
+      "outputPath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexandrecotier/.nuget/NuGet/NuGet.Config"
@@ -3043,8 +3059,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Application/HotelManagement.Application.csproj": {
-              "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/HotelManagement/HotelManagement.Application/HotelManagement.Application.csproj"
+            "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Application/HotelManagement.Application.csproj": {
+              "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Application/HotelManagement.Application.csproj"
+            },
+            "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/HotelManagement.Externals.PaiementGateways.csproj": {
+              "projectPath": "/Users/alexandrecotier/Projects/HotelManagement/src/HotelManagement.Externals.PaiementGateways/HotelManagement.Externals.PaiementGateways.csproj"
             }
           }
         }
