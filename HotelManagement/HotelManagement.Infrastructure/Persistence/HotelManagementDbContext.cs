@@ -1,5 +1,5 @@
 using System.Collections.ObjectModel;
-
+using HotelManagement.Domain.RoomAggregate;
 using HotelManagement.Domain.UserAggregate;
 
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +14,7 @@ public class HotelManagementDbContext : DbContext
     }
 
     public DbSet<User> Users { get; set; } = null!;
+    public DbSet<Room> Rooms { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

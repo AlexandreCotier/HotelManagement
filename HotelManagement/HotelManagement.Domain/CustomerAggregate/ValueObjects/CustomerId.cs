@@ -1,21 +1,22 @@
 using HotelManagement.Domain.Common.Models;
+using HotelManagement.Domain.UserAggregate.ValueObjects;
 
 namespace HotelManagement.Domain.CustomerAggregate.ValueObjects
 {
-    public sealed class CustomerId : AggregateRootId<Guid>
+    public sealed class CustomerId : AggregateRootId<string>
     {
-        private CustomerId(Guid value) : base(value)
+        private CustomerId(string value) : base(value)
         {
         }
 
-        public static CustomerId CreateUnique()
+        public static CustomerId Create(string hostId)
         {
-            return new CustomerId(Guid.NewGuid());
+            return new CustomerId(hostId);
         }
 
-        public static CustomerId Create(Guid userId)
+        public static CustomerId Create(UserId userId)
         {
-            return new CustomerId(userId);
+            return new CustomerId($"Customer_{userId.Value}");
         }
     }
 }

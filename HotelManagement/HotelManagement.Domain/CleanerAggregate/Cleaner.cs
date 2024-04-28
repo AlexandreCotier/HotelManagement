@@ -5,6 +5,6 @@ namespace HotelManagement.Domain.CleanerAggregate
 {
     public sealed class Cleaner : AggregateRoot<CleanerId, Guid>
     {
-
+        private Cleaner(){}
     }
 }

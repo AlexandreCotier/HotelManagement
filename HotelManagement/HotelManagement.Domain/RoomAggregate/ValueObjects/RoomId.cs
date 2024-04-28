@@ -13,9 +13,14 @@ namespace HotelManagement.Domain.RoomAggregate.ValueObjects
             return new RoomId(Guid.NewGuid());
         }
 
-        public static RoomId Create(Guid userId)
+        public static RoomId Create(string roomId)
         {
-            return new RoomId(userId);
+            return new RoomId(Guid.Parse(roomId));
+        }
+
+        public static RoomId Create(Guid roomId)
+        {
+            return new RoomId(roomId);
         }
     }
 }

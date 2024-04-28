@@ -1,6 +1,6 @@
 # Domain Aggregates
 
-## Bill
+## Invoice
 
 ```json
 {

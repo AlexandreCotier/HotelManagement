@@ -38,7 +38,8 @@ public static class DependencyInjection
             options.UseSqlServer("Server=163.172.221.134;Initial Catalog=HotelManagement;User Id=sa;Password=MyPassword123!!;TrustServerCertificate=True;"));
 
         services.AddScoped<IUserRepository, UserRepository>();
-        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IRoomRepository, RoomRepository>();
+        services.AddScoped<IReservationRepository, ReservationRepository>();
         return services;
     }
 

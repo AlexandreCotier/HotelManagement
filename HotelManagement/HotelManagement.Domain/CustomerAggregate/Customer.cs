@@ -3,7 +3,7 @@ using HotelManagement.Domain.CustomerAggregate.ValueObjects;
 
 namespace HotelManagement.Domain.CustomerAggregate
 {
-    public sealed class Customer : AggregateRoot<CustomerId, Guid>
+    public sealed class Customer : AggregateRoot<CustomerId, string>
     {
 
     }

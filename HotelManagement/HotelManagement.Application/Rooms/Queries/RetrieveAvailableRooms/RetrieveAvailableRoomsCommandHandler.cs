@@ -1,6 +1,5 @@
 using ErrorOr;
 using HotelManagement.Domain.RoomAggregate;
-using HotelManagement.Reservation.BillAggregate;
 using MediatR;
 
 namespace HotelManagement.Application.Rooms.Queries.RetrieveAvailableRooms
